@@ -1,0 +1,45 @@
+@import url("stylesheet.css");
+body{
+    background-color: #EAEAEA;
+    font-family : 'Axiforma', sans-serif;
+    font-size : 14px;
+    color: #2D2D2D;
+    }
+
+.row-container{
+    background-color: #FFF;
+    margin: 0px;
+}
+.card:hover{
+    border: 2px solid #2D2D2D;
+}
+/* Add your existing CSS styles for the product cards */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.hover-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+.product-card:hover{
+    border: 2px solid #2D2D2D;
+}
